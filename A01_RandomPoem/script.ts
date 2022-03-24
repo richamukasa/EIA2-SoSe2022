@@ -7,7 +7,7 @@
 
 namespace RandomPoemGenerator {
     let subject: string[] = ["Bert", "Die Katze", "Die Blume", "Isolde", "Der Apfel", "Der Bauer"];
-    let verb: string[] = ["steht", "isst", "schmückt", "brät", "hängt", "streicht"];
+    let verb: string[] = ["bastelt", "isst", "schmückt", "brät", "hängt", "streicht"];
     let object: string[] = ["im Haus", "die Maus", "im Garten", "den Braten", "am Baum", "den Zaun"];
 
     /**
