@@ -1,14 +1,14 @@
 /**
  * Aufgabe: L01 Zufallsgedicht
  * Matrikel: 270000
- * Datum: 22.02.2022
+ * Datum: 26.02.2022
  * Quellen: Me, myself and I
  */
 
 namespace RandomPoemGenerator {
-    let subject: string[] = ["Bert", "Die Katze", "Die Blume", "Isolde", "Der Apfel", "Der Bauer"];
-    let verb: string[] = ["bastelt", "isst", "schmückt", "brät", "hängt", "streicht"];
-    let object: string[] = ["im Haus", "die Maus", "im Garten", "den Braten", "am Baum", "den Zaun"];
+    let subjects: string[] = ["Bert", "Die Katze", "Die Blume", "Isolde", "Der Apfel", "Der Bauer"];
+    let verbs: string[] = ["bastelt", "isst", "schmückt", "brät", "hängt", "streicht"];
+    let objects: string[] = ["im Haus", "die Maus", "im Garten", "den Braten", "am Baum", "den Zaun"];
 
     /**
      * Die Funktion, die dem RandomPoemGenerator möglich macht
@@ -27,8 +27,8 @@ namespace RandomPoemGenerator {
         return verse;
     }
 
-    for (let i: number = subject.length; i > 0; i--) {
-        console.log(getVerse(subject, verb, object));
+    for (let i: number = subjects.length; i > 0; i--) {
+        console.log(getVerse(subjects, verbs, objects));
     }
 }
 
