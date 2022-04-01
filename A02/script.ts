@@ -10,7 +10,6 @@ namespace EventExercise {
         // Das Span Objekt, welches in setInfoBox verwendet wird.
         let infoSpan: HTMLSpanElement = document.createElement("SPAN");
         infoSpan.id = "infoBox";
-        document.body.appendChild(infoSpan);
 
         handleLoad();
 
@@ -25,13 +24,13 @@ namespace EventExercise {
         }
 
         /**
-         * Das bereits erzeugte Span Element infoSpan bekommt hier die Koordinaten der Maus als Position
+         * Das Span Element infoSpan wird dem body hinzugefügt unf bekommt hier die Koordinaten der Maus als Position
          * zugeteilt, damit es sich mit ihr bewegt. infoSpan zeig die Mausposition und das HTML Objekt,
          * in welchem sie sich befindet, an.
          * @param _event Das übergebene MouseEvent, in diesem Fall mousemove (s. handleLoad()).
          */
         function setInfoBox(_event: MouseEvent): void {
-            
+            document.body.appendChild(infoSpan);
             let mouseX: string = `${_event.clientX - 755}`;
             let mouseY: string = `${_event.clientY - 70}`;
             
