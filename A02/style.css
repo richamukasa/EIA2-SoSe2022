@@ -1,0 +1,24 @@
+#div0, #div1{
+    position: relative;
+    border-style: solid;
+    border: 100px, #000;
+    width: 500px;
+    height: 600px;
+}
+
+#div0{
+    margin-left: 250px;
+    float: left;
+}
+
+#div1{
+    margin-right: 250px;
+    float: right;
+}
+
+#infoBox{
+    position: fixed;
+    border-style: solid;
+    background-color: #fff;
+    width: 200px;
+}
