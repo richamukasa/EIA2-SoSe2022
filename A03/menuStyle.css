@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+a {
+    color:#ff8c00;
+    text-decoration: none;
+}
+
 a:hover {
     opacity: 0.8;
 }
