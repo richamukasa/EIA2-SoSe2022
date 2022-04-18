@@ -15,34 +15,53 @@
     <form>
         <div id="wrapper">
             <div id="form">
-                <label for="cardPairs">How many pairs Miguel?</label>
-                <input type="number" id="cardPairs" name="cardPairs" value="5" min="5" max="25"> <br> <br>
-                <label for="cardSize">Size your cards</label>
-                <input type="range" id="cardSize" name="cardSize" min="50" max="150" step="1"> <br> <br>
-                <span id="demoCard"><p>DEMO</p></span><br>
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td><label for="cardPairs">How many pairs Miguel?</label></td>
+                            <td><input type="number" id="cardPairs" name="cardPairs" value="5" min="5" max="25"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="cardSize">Size your cards</label></td>
+                            <td><input type="range" id="cardSize" name="cardSize" min="50" max="150" step="1"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="background">Design your background </label></td>
+                            <td><input type="color" id="background" name="background" value="#d3adff"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="cardColor">Design your cards' color </label></td>
+                            <td><input type="color" id="cardColor" name="cardColor" value="#ffffff"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fontColor">Design your text color </label></td>
+                            <td><input type="color" id="fontColor" name="fontColor" value="#000000"></td>
+                        </tr>
 
-                <table>
-                    <tr>
-                        <td><label for="background">Design your background  </label></td>
-                        <td><input type="color" id="background" name="background" value="#7114dc"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="cardDown">Design your cards' back  </label></td>
-                        <td><input type="color" id="cardDown" name="cardDown" value="#ffffff"></td>
-                    </tr>
-                    <tr>
-                        <td><label for="fontColor">Design your text color  </label></td>
-                        <td><input type="color" id="fontColor" name="fontColor" value="#000000"></td>
-                    </tr>
-                </table> <br>
+                        <tr>
+                            <td><input type="radio" id="georgia" name="wantedFont" checked="checked"
+                                    value="Georgia, 'Times New Roman', Times, serif">
+                                <label for="georgia" id="geoFont">Georgia</label>
+                            </td>
+                        </tr>
 
-
-                <input type="radio" id="georgia" name="wantedFont" checked="checked" value="Georgia, 'Times New Roman', Times, serif">
-                <label for="georgia" id="geoFont">Georgia</label> <br>
-                <input type="radio" id="verdana" name="wantedFont" value="Verdana, Geneva, Tahoma, sans-serif">
-                <label for="verdana" id="verFont">Verdana</label> <br>
-                <input type="radio" id="papyrus" name="wantedFont" value="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
-                <label for="papyrus" id="impFont">Impact</label> <br> <br>
+                        <tr>
+                            <td><input type="radio" id="verdana" name="wantedFont"
+                                    value="Verdana, Geneva, Tahoma, sans-serif">
+                                <label for="verdana" id="verFont">Verdana</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="papyrus" name="wantedFont"
+                                    value="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">
+                                <label for="papyrus" id="impFont">Impact</label>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <span id="demoCard">
+                    <p>DEMO</p>
+                </span>
 
                 <button type="button" id="startButton">Once you pass, you can't turn back</button>
             </div>

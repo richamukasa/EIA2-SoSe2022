@@ -40,7 +40,7 @@ var Memory;
                 card.className = "faceDown";
                 card.style.width = `${6 * cardSize}%`;
                 card.style.height = `${10 * cardSize}%`;
-                card.style.color = card.style.backgroundColor = `${formData.get("cardDown")}`;
+                card.style.color = card.style.backgroundColor = `${formData.get("cardColor")}`;
                 cardValue.innerHTML = cards[j];
                 card.appendChild(cardValue);
                 card.addEventListener("click", function () {
@@ -94,7 +94,7 @@ var Memory;
         demoCard.style.width = `${6 * cardSize}%`;
         demoCard.style.height = `${10 * cardSize}%`;
         demoCard.style.color = `${formData.get("fontColor")}`;
-        demoCard.style.backgroundColor = `${formData.get("cardDown")}`;
+        demoCard.style.backgroundColor = `${formData.get("cardColor")}`;
         document.getElementById("headline").style.fontFamily = demoCard.style.fontFamily = `${formData.get("wantedFont")}`;
         demoCard.style.fontSize = `${50 * cardSize}%`;
     }
@@ -103,7 +103,7 @@ var Memory;
         if (wrapper.getElementsByClassName("faceDown").length == 0) {
             let endText = document.createElement("p");
             let gameTime = (new Date().getTime() - startTime) / 1000;
-            endText.innerHTML = `HOORAY, you took ${gameTime} seconds to beat the game!`;
+            endText.innerHTML = `HOORAY, it took you ${gameTime} seconds to beat the game!`;
             wrapper.appendChild(endText);
         }
     }
