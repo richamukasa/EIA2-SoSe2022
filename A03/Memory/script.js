@@ -1,7 +1,7 @@
 /**
  * Aufgabe: L03 Memory
  * Matrikel: 270000
- * Datum: 17.04.2022
+ * Datum: 18.04.2022
  * Quellen: Ann-Kathrin Pfeffer und ich
  */
 var Memory;
@@ -15,6 +15,7 @@ var Memory;
         let form = document.querySelector("div#form");
         form.addEventListener("input", handleInput);
         startButton.addEventListener("click", buttonClick);
+        startButton.addEventListener("ontouchend", buttonClick);
     }
     function buttonClick(_event) {
         let wrapper = document.querySelector("div#wrapper");
@@ -23,8 +24,6 @@ var Memory;
         let cardPairs = parseInt(`${formData.get("cardPairs")}`);
         let cardSize = parseInt(`${formData.get("cardSize")}`) / 100;
         let cards = [];
-        let date = new Date();
-        console.log(date.getTime());
         wrapper.style.backgroundColor = `${formData.get("background")}`;
         wrapper.style.display = "flex";
         wrapper.style.flexWrap = "wrap";
@@ -47,10 +46,13 @@ var Memory;
                 card.addEventListener("click", function () {
                     spanClick(card, formData);
                 });
+                card.addEventListener("ontouchend", function () {
+                    spanClick(card, formData);
+                });
             }
         }
         wrapper.style.fontFamily = `${formData.get("wantedFont")}`;
-        startTime = date.getTime();
+        startTime = new Date().getTime();
         movePossible = true;
     }
     function spanClick(_card, _formData) {
@@ -99,8 +101,6 @@ var Memory;
     function checkField() {
         let wrapper = document.querySelector("div#wrapper");
         if (wrapper.getElementsByClassName("faceDown").length == 0) {
-            let date = new Date();
-            console.log(date);
             let endText = document.createElement("p");
             let gameTime = (new Date().getTime() - startTime) / 1000;
             endText.innerHTML = `HOORAY, you took ${gameTime} seconds to beat the game!`;

@@ -1,7 +1,7 @@
 /**
  * Aufgabe: L03 Memory
  * Matrikel: 270000
- * Datum: 17.04.2022
+ * Datum: 18.04.2022
  * Quellen: Ann-Kathrin Pfeffer und ich
  */
 
@@ -10,9 +10,7 @@ namespace Memory {
     let startTime: number;
     let movePossible: boolean = false;
 
-
     window.addEventListener("load", handleLoad);
-
 
     function handleLoad(): void {
         let startButton: HTMLButtonElement = <HTMLButtonElement>document.querySelector("button#startButton");
@@ -20,6 +18,7 @@ namespace Memory {
 
         form.addEventListener("input", handleInput);
         startButton.addEventListener("click", buttonClick);
+        startButton.addEventListener("ontouchend", buttonClick);
     }
 
     function buttonClick(_event: Event): void {
@@ -29,10 +28,6 @@ namespace Memory {
         let cardPairs: number = parseInt(`${formData.get("cardPairs")}`);
         let cardSize: number = parseInt(`${formData.get("cardSize")}`) / 100;
         let cards: string[] = [];
-        let date: Date = new Date();
-        console.log(date.getTime());
-
-
 
         wrapper.style.backgroundColor = `${formData.get("background")}`;
         wrapper.style.display = "flex";
@@ -59,16 +54,17 @@ namespace Memory {
                 card.addEventListener("click", function (): void {
                     spanClick(card, formData);
                 });
+                card.addEventListener("ontouchend", function (): void {
+                    spanClick(card, formData);
+                });
             }
         }
         wrapper.style.fontFamily = `${formData.get("wantedFont")}`;
-        startTime = date.getTime();
+        startTime = new Date().getTime();
         movePossible = true;
     }
 
-
     function spanClick(_card: HTMLSpanElement, _formData: FormData): void {
-
         if (movePossible) {
             if (_card.className == "faceDown") {
                 _card.className = "faceUp";
@@ -76,6 +72,7 @@ namespace Memory {
                 cardsSelected++;
             }
         }
+
         if (cardsSelected == 2) {
             movePossible = false;
             setTimeout(resetTurn, 2000);
@@ -120,8 +117,6 @@ namespace Memory {
         let wrapper: HTMLDivElement = <HTMLDivElement>document.querySelector("div#wrapper");
 
         if (wrapper.getElementsByClassName("faceDown").length == 0) {
-            let date: Date = new Date();
-            console.log(date);
             let endText: HTMLParagraphElement = document.createElement("p");
             let gameTime: number = (new Date().getTime() - startTime) / 1000;
 
@@ -129,5 +124,4 @@ namespace Memory {
             wrapper.appendChild(endText);
         }
     }
-
 }
