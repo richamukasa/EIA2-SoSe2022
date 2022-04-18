@@ -62,6 +62,7 @@ p {
 
 table {
     margin: auto;
+    margin-top: 10%;
     text-align: left;
 }
 
@@ -79,4 +80,8 @@ table {
 
 #cardPairs {
     margin-top: 5%;
+}
+
+fieldset {
+    border: none;
 }

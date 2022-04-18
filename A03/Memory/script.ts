@@ -12,6 +12,9 @@ namespace Memory {
 
     window.addEventListener("load", handleLoad);
 
+    /**
+     * 
+     */
     function handleLoad(): void {
         let startButton: HTMLButtonElement = <HTMLButtonElement>document.querySelector("button#startButton");
         let form: HTMLDivElement = <HTMLDivElement>document.querySelector("div#form");
@@ -21,6 +24,10 @@ namespace Memory {
         startButton.addEventListener("ontouchend", buttonClick);
     }
 
+    /**
+     * 
+     * @param _event Das click oder ontouchend Event
+     */
     function buttonClick(_event: Event): void {
         let wrapper: HTMLDivElement = <HTMLDivElement>document.querySelector("div#wrapper");
         let form: HTMLDivElement = <HTMLDivElement>document.querySelector("div#form");

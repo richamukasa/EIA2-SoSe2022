@@ -10,6 +10,9 @@ var Memory;
     let startTime;
     let movePossible = false;
     window.addEventListener("load", handleLoad);
+    /**
+     *
+     */
     function handleLoad() {
         let startButton = document.querySelector("button#startButton");
         let form = document.querySelector("div#form");
@@ -17,6 +20,10 @@ var Memory;
         startButton.addEventListener("click", buttonClick);
         startButton.addEventListener("ontouchend", buttonClick);
     }
+    /**
+     *
+     * @param _event Das click oder ontouchend Event
+     */
     function buttonClick(_event) {
         let wrapper = document.querySelector("div#wrapper");
         let form = document.querySelector("div#form");
