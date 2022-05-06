@@ -1,3 +1,9 @@
+/**
+ * Aufgabe: L08 Art
+ * Matrikel: 270000
+ * Datum: 06.05.2022
+ * Quellen: It was I
+ */
 var Art;
 (function (Art) {
     window.addEventListener("load", handleLoad);
