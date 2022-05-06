@@ -46,7 +46,7 @@ namespace Art {
             };
 
             let r1: number = Math.floor((Math.random() * 20) + 10);
-            let r2: number = Math.floor((Math.random() * 60) + 30);
+            let r2: number = Math.floor((Math.random() * 60) + 40);
             let gradient: CanvasGradient = crc2.createRadialGradient(0, 0, r1, 0, 0, r2);
             let particle: Path2D = new Path2D();
 

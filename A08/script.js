@@ -29,7 +29,7 @@ var Art;
                 b: 255 - _color.b
             };
             let r1 = Math.floor((Math.random() * 20) + 10);
-            let r2 = Math.floor((Math.random() * 60) + 30);
+            let r2 = Math.floor((Math.random() * 60) + 40);
             let gradient = crc2.createRadialGradient(0, 0, r1, 0, 0, r2);
             let particle = new Path2D();
             let strokeStart = {
