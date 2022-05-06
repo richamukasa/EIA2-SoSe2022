@@ -2,8 +2,7 @@ var Art;
 (function (Art) {
     window.addEventListener("load", handleLoad);
     let crc2;
-    const golden = 0.62;
-    let sunCount = Math.floor(Math.random() * 50);
+    let bubbleCount = Math.floor((Math.random() * 49) + 1);
     let background = {
         r: Math.floor(Math.random() * 255),
         g: Math.floor(Math.random() * 255),
@@ -11,7 +10,7 @@ var Art;
     };
     console.log(background);
     function handleLoad(_event) {
-        console.log(sunCount);
+        console.log(bubbleCount);
         let canvas = document.querySelector("canvas");
         if (!canvas)
             return;
@@ -42,7 +41,7 @@ var Art;
             crc2.fillStyle = gradient;
             crc2.beginPath();
             crc2.moveTo(strokeStart.x, strokeStart.y);
-            for (let suns = 0; suns < sunCount; suns++) {
+            for (let suns = 0; suns < bubbleCount; suns++) {
                 crc2.save();
                 let x = Math.floor((Math.random() * 740) + 30);
                 let y = Math.floor((Math.random() * 740) + 30);

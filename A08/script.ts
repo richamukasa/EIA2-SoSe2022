@@ -12,8 +12,7 @@ namespace Art {
 
     window.addEventListener("load", handleLoad);
     let crc2: CanvasRenderingContext2D;
-    const golden: number = 0.62;
-    let sunCount: number = Math.floor(Math.random() * 50);
+    let bubbleCount: number = Math.floor((Math.random() * 49) + 1);
     let background: RGBColor = {
         r: Math.floor(Math.random() * 255),
         g: Math.floor(Math.random() * 255),
@@ -23,7 +22,7 @@ namespace Art {
     console.log(background);
 
     function handleLoad(_event: Event): void {
-        console.log(sunCount);
+        console.log(bubbleCount);
         let canvas: HTMLCanvasElement | null = document.querySelector("canvas");
         if (!canvas)
             return;
@@ -62,7 +61,7 @@ namespace Art {
 
             crc2.beginPath();
             crc2.moveTo(strokeStart.x, strokeStart.y);
-            for (let suns: number = 0; suns < sunCount; suns++) {
+            for (let suns: number = 0; suns < bubbleCount; suns++) {
                 crc2.save();
                 let x: number = Math.floor((Math.random() * 740) + 30);
                 let y: number = Math.floor((Math.random() * 740) + 30);
