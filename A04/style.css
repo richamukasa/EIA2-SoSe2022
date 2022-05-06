@@ -1,0 +1,16 @@
+body {
+    background-color: #000;
+    color:#ff8c00;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+
+a {
+    color:#ff8c00;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8;
+}
