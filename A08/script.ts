@@ -20,9 +20,9 @@ namespace Art {
     let crc2: CanvasRenderingContext2D;
     let bubbleCount: number = Math.floor((Math.random() * 49) + 1);
     let background: RGBColor = {
-        r: Math.floor(Math.random() * 255),
-        g: Math.floor(Math.random() * 255),
-        b: Math.floor(Math.random() * 255)
+        r: Math.floor(Math.random() * 256),
+        g: Math.floor(Math.random() * 256),
+        b: Math.floor(Math.random() * 256)
     };
 
     console.log(background);

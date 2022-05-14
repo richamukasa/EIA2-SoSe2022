@@ -10,9 +10,9 @@ var Art;
     let crc2;
     let bubbleCount = Math.floor((Math.random() * 49) + 1);
     let background = {
-        r: Math.floor(Math.random() * 255),
-        g: Math.floor(Math.random() * 255),
-        b: Math.floor(Math.random() * 255)
+        r: Math.floor(Math.random() * 256),
+        g: Math.floor(Math.random() * 256),
+        b: Math.floor(Math.random() * 256)
     };
     console.log(background);
     function handleLoad(_event) {
