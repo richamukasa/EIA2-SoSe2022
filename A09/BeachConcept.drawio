@@ -1,1 +1,409 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T13:11:53.283Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" version="18.1.1" etag="yrtmyS0g3AokWJRIQXmD" type="github"><diagram id="07POJfwP3bxhoo4YU_Wp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-21T23:12:42.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="VSAHE59VuxUrufSLMiwn" version="18.1.1" type="github">
+  <diagram id="07POJfwP3bxhoo4YU_Wp" name="Page-1">
+    <mxGraphModel dx="1534" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-1" value="handleLoad" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="1320" height="2280" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-2" value="let canvas: the documents canvas&lt;br&gt;const ratio: number = 0.5625&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-3" value="canvas.syle.width = `${window.innerWidth}`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-6" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-7" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="250" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-8" value="canvas.style.height = `${window.innerHeight}`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-9" value="canvas.style.height = `${window.innerWidth * ratio}`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-10" value="const canWidth: number = canvas.width;&lt;br&gt;&lt;br&gt;const canHeight: number = canvas.height;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-12" value="crc2 = &amp;lt;CanvasRenderingcontext2D&amp;gt;canvas.getContext(&quot;2d&quot;);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-13" value="let: cloudAmmount = a random number between 5 and 12&lt;br&gt;&lt;br&gt;let: treeAmmount = a random number between 10 and 20&lt;br&gt;&lt;br&gt;let: birdAmmount = a random number between 25 and 40&lt;br&gt;&lt;br&gt;let: beachChillers = a random number between 5 and 10&lt;br&gt;&lt;br&gt;let: surferAmmount = a random number between 4 and 8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-14" value="drawSky()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="880" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-15" value="drawMountain({ x: 0, y:canHeight * 0.12})" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="960" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-16" value="drawOcean()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1050" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-17" value="drawSand()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1130" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-18" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-19" value="let i: number = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-20" value="let: treePos: Vector = { x: a random number between 0 and 18% of canWidth,&lt;br&gt;y: a random number between 20-25% of canHeight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-22" value="drawTree(treePos)" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1275" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-23" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1535" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-24" value="let i: number = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-25" value="let birdType: a random number between 0 and 1&lt;br&gt;let: birdPosPos: Vector = { x: a random number between 0 and canWidth,&lt;br&gt;y: a random number between 2.8-23.1% of canHeight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-26" value="drawBird(birdPos, birdType)" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1520" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-27" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1715" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-28" value="let i: number = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-29" value="let: chillPos: Vector = { x: a random number between -1-24.7% of canWidth,&lt;br&gt;y: a random number between 44-92.6% of canHeight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-30" value="drawChiller(chillPos)" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1700" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-31" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1855" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-32" value="let i: number = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-33" value="let surfPos: Vector = { x: a random number between 26-96.4% of canWidth,&lt;br&gt;y: a random number between 37-62.5% of canHeight}&lt;br&gt;&lt;br&gt;let direction: number&lt;br&gt;let x: number = a random number between 0 and 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-34" value="drawTree(treePos)" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1840" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-35" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2068" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-36" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2068" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-38" value="direction = 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2008" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-39" value="direction = -1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="2120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-40" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2230" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-44" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2068" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-45" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2068" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-46" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1855" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-47" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1715" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-48" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1535" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-49" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-50" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1855" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-51" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="1715" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-52" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554.5" y="1535" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-53" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="554.5" y="1290" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-54" value="drawShip(shipPos)" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-55" value="drawSky" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="40" width="530" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-56" value="let gradient: CanvasGradient = crc2.createLinearGradient(0, 0, 0, crc2.canvas.height * 0.26)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-57" value="gradient.addColorStop(0, &quot;lightblue&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-58" value="gradient.addColorStop(golden, &quot;yellow&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-59" value="gradient.addColorStop(1, &quot;orange&quot;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-60" value="crc.fillStyle = gradient;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-61" value="crc2.fillRect(0, 0, crc2.canvas.width, crc2.canvas.height * 0.26)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-62" value="drawBird" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="660" width="1590" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-63" value="_position: Vector _birdType: number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-64" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-65" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-66" value="let birdColor: RGBColor = {&lt;br&gt;r: a random number between 0 and 255,&lt;br&gt;g: a random number between 0 and 255,&lt;br&gt;b: a random number between 0 and 255" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-67" value="crc2.strokeStyle = `rgb(${birdColor.r},${birdColor.g}, ${birdColor.b}&lt;br&gt;)`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-68" value="drawBird type 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-69" value="crc2.save()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-70" value="crc2.restore()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-71" value="let birdColor: RGBColor = {&lt;br&gt;r: a random number between 0 and 255,&lt;br&gt;g: a random number between 0 and 255,&lt;br&gt;b: a random number between 0 and 255" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-72" value="crc2.strokeStyle = `rgb(${birdColor.r},${birdColor.g}, ${birdColor.b}&lt;br&gt;)`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-73" value="drawBird type 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-74" value="crc2.save()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-75" value="crc2.restore()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-76" value="crc2.translate(_position.x, _position.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-77" value="crc2.translate(_position.x, _position.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-78" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="1050" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-79" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="760" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-80" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="755" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-81" value="drawTree" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1180" width="560" height="980" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-82" value="_position: Vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-83" value="let sizeFacot: number = _position.y / crc2.canvas.height" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-84" value="crc2.strokeStyle = &quot;darkbrown&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-85" value="crc2.fillStyle = &quot;brown&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-86" value="draw stem" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-87" value="crc2.strokeStyle = &quot;darkgreen&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1765" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-88" value="crc2.strokeStyle = &quot;lighgreen&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-89" value="draw leaves" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-90" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="2098" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-91" value="crc2.translate(_position.x, _position.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-92" value="crc2.save()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-93" value="crc2.restore()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="2008" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-94" value="drawMountain" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="1180" width="1190" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-95" value="_position: Vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-96" value="let endPoint: Vector = {&lt;br&gt;x: a random number between 750 and 1200&lt;br&gt;y: 155" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-97" value="crc2.save()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-98" value="crc2.translate(_position.x, _position.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-99" value="crc2.moveTo(0, 0)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-100" value="set fill- and strokeStyle to #152109" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-101" value="A" style="ellipse;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="1790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-102" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="2240" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-103" value="let i: number = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-104" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="1790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-105" value="crc2.lineTo(i, randomHeight)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="1775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-106" value="let randomHeight: number = a random number between -50 and 50" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="1775" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-107" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="1790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-108" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1790" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-109" value="crc.lineTo(endPoint.x, endPoint.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-110" value="crc.lineTo(0 endPoint.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-111" value="crc.lineTo(0, 0)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="2008" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-112" value="stroke and fill the mountain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="2083" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-113" value="crc2.restore()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="2160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-114" value="drawChiller" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2380" width="500" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-115" value="_position: Vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-116" value="let head: Path2D = new Path2D&lt;br&gt;let skinColor: RGBColor = a random color with r, b, g each between 0 and 255" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-117" value="crc2.save()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-118" value="crc2.translate(_position.x, _position.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-119" value="draw chiller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-120" value="crc2.restore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-121" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="255" y="2940" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-122" value="drawSurfer" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="615" y="2380" width="500" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-123" value="_position: Vector" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="2350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-124" value="let head: Path2D = new Path2D&lt;br&gt;let skinColor: RGBColor = a random color with r, b, g each between 0 and 255" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="2460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-125" value="crc2.save()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-126" value="crc2.translate(_position.x, _position.y)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-127" value="draw surfer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="2760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-128" value="crc2.restore" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="3120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-129" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="850" y="3210" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-130" value="change fill- and strokeStyle to HSL(0, 0%, 74%)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="2855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-131" value="crc2.translate(40 * _direction, 0)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="2945" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-132" value="draw surfboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="3030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-133" value="drawSand" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-134" value="crc2.save()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-135" value="crc2.translate0, 480" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-136" value="change fill and strokeStyle to #d2aa58" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-137" value="begin a path and move to (0, 0)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-138" value="crc2.bezierCurveTo(420, 280, 1160, 320, 1920, 320)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-139" value="crc.drawLineTo(1920, 600)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-140" value="crc.drawLineTo(1920, 600)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="2980" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
