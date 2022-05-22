@@ -19,7 +19,7 @@ namespace Beach {
         let canvas: HTMLCanvasElement | null = document.querySelector("canvas");
         const ratio: number = 0.5625;
         canvas.style.width = `${window.innerWidth}`;
-        if (window.innerWidth > window.innerHeight){
+        if (window.innerWidth > window.innerHeight) {
             canvas.style.height = `${window.innerHeight}`;
         } else {
             canvas.style.height = `${canvas.width * ratio}`;
