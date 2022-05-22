@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T09:01:40.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="MyTdSE5IT68vCqq4Ikdi" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-22T09:02:38.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="LG2MV-Is7locoYZIBJN7" version="18.1.1" type="github">
   <diagram id="07POJfwP3bxhoo4YU_Wp" name="Page-1">
-    <mxGraphModel dx="5524" dy="7558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="3069" dy="6278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1107,6 +1107,9 @@
         <mxCell id="vIYkCOa7Qmqk0R8uEkTm-333" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vIYkCOa7Qmqk0R8uEkTm-369" source="vIYkCOa7Qmqk0R8uEkTm-34" target="vIYkCOa7Qmqk0R8uEkTm-325">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-543" value="Beach: Activity Diagram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="vIYkCOa7Qmqk0R8uEkTm-369">
+          <mxGeometry y="-10" width="140" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="vIYkCOa7Qmqk0R8uEkTm-415" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="40" y="100" width="1480" height="1000" as="geometry" />
         </mxCell>
@@ -1628,6 +1631,9 @@
         </mxCell>
         <mxCell id="vIYkCOa7Qmqk0R8uEkTm-533" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="vIYkCOa7Qmqk0R8uEkTm-539">
           <mxGeometry x="95" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIYkCOa7Qmqk0R8uEkTm-542" value="Beach: UI Skribble" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-4630" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
