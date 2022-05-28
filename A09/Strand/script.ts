@@ -93,6 +93,10 @@ namespace Beach {
         }
     }
 
+    const widthFactor: number = 1 / crc2.canvas.width;
+    const heightFactor: number = 1 / crc2.canvas.height;
+
+
     function randomNumber(_min: number, _max: number): number {
         return Math.floor(Math.random() * (_max - _min + 1) + _min);
     }
@@ -346,10 +350,10 @@ namespace Beach {
             crc2.translate(_position.x, _position.y);
             crc2.beginPath();
             crc2.moveTo(0, 0);
-            crc2.lineTo(10, -5);
-            crc2.lineTo(15, 0);
-            crc2.lineTo(20, -5);
-            crc2.lineTo(30, 0);
+            crc2.lineTo(10 * widthFactor, -5 * heightFactor);
+            crc2.lineTo(15 * widthFactor, 0);
+            crc2.lineTo(20 * widthFactor, -5 * heightFactor);
+            crc2.lineTo(30 * widthFactor, 0);
             crc2.stroke();
             crc2.restore();
         } else {

@@ -1,7 +1,7 @@
 /**
  * Aufgabe: L02 Event Exercise
  * Matrikel: 270000
- * Datum: 01.04.2022
+ * Datum: 03.04.2022
  * Quellen: Le moi
  */
 var EventExercise;
@@ -19,6 +19,12 @@ var EventExercise;
             document.addEventListener("mousemove", setInfoBox);
             document.addEventListener("click", logInfo);
             document.addEventListener("keyup", logInfo);
+            document.body.addEventListener("click", logInfo);
+            document.body.addEventListener("keyup", logInfo);
+            document.getElementById("div0").addEventListener("click", logInfo);
+            document.getElementById("div0").addEventListener("keyup", logInfo);
+            document.getElementById("div1").addEventListener("click", logInfo);
+            document.getElementById("div1").addEventListener("keyup", logInfo);
         }
         /**
          * Das Span Element infoSpan wird dem body hinzugefügt unf bekommt hier die Koordinaten der Maus als Position
