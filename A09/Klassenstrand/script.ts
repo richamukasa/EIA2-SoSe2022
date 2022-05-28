@@ -1,3 +1,9 @@
+/**
+ * Aufgabe: L09.2 Strand: Classes
+ * Matrikel: 270000
+ * Datum: 28.05.2022
+ * Quellen: It was I
+ */
 namespace Beach {
     export let crc2: CanvasRenderingContext2D;
     export let canWidth: number;

@@ -1,3 +1,9 @@
+/**
+ * Aufgabe: L09.2 Strand: Classes
+ * Matrikel: 270000
+ * Datum: 28.05.2022
+ * Quellen: Das zieht sich
+ */
 namespace Beach {
     export class Ship {
         position: Vector;
