@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-18T14:17:04.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.58" etag="FTFACdgdJJCTZ3TZHyCf" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-18T14:19:09.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36 OPR/87.0.4390.58" etag="VJW6umm483s4hv-OFJxp" version="20.0.1" type="github">
   <diagram id="8aCHfYfsMenAU9huHKBk" name="Page-1">
     <mxGraphModel dx="1534" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,7 +157,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rd0p_HdcmdbAc5Na88ju-101" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="520" y="1325" width="280" height="585" as="geometry" />
+          <mxGeometry x="520" y="1210" width="280" height="585" as="geometry" />
         </mxCell>
         <mxCell id="Rd0p_HdcmdbAc5Na88ju-78" value="move" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;arcSize=3;" vertex="1" parent="Rd0p_HdcmdbAc5Na88ju-101">
           <mxGeometry y="35" width="280" height="550" as="geometry" />
@@ -225,6 +225,44 @@
         </mxCell>
         <mxCell id="Rd0p_HdcmdbAc5Na88ju-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rd0p_HdcmdbAc5Na88ju-101" source="Rd0p_HdcmdbAc5Na88ju-88" target="Rd0p_HdcmdbAc5Na88ju-89">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-102" value="HeritageBeach: Activity Diagram - Moveable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1180" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-103" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1040" y="1200" width="240" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-104" value="constructor" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;arcSize=5;" vertex="1" parent="Rd0p_HdcmdbAc5Na88ju-103">
+          <mxGeometry y="30" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-105" value="_position: Vector&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Rd0p_HdcmdbAc5Na88ju-103">
+          <mxGeometry x="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-106" value="assign _position to the object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Rd0p_HdcmdbAc5Na88ju-103">
+          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rd0p_HdcmdbAc5Na88ju-103" source="Rd0p_HdcmdbAc5Na88ju-105" target="Rd0p_HdcmdbAc5Na88ju-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="70" />
+              <mxPoint x="120" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-108" value="draw()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="Rd0p_HdcmdbAc5Na88ju-103">
+          <mxGeometry x="60" y="160" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.499;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Rd0p_HdcmdbAc5Na88ju-103" source="Rd0p_HdcmdbAc5Na88ju-106" target="Rd0p_HdcmdbAc5Na88ju-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-110" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="Rd0p_HdcmdbAc5Na88ju-103">
+          <mxGeometry x="105" y="230" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Rd0p_HdcmdbAc5Na88ju-103" source="Rd0p_HdcmdbAc5Na88ju-108" target="Rd0p_HdcmdbAc5Na88ju-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rd0p_HdcmdbAc5Na88ju-112" value="Activity Diagram - Immoveable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1180" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
