@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Settings</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script3.js"></script>
+</head>
+<body>
+    <h1>
+        Memory
+    </h1>
+    <div id="wrapper">
+        <form>
+        <div id="formDiv">
+            <fieldset>
+                <legend>Auswahl Kartenanzahl</legend>
+                <input type="number" name="cardQuantity" id="cardQuantity" min="5" max="25" step="1">
+            </fieldset>
+                <br>
+            <fieldset>   
+                <legend>Auswahl Kartengröße</legend>
+                <input type="range" name="cardSize" id="cardSize" min="5" max="25" step="1">
+            </fieldset>  
+                <br>
+            <fieldset>
+                <legend>Auswahl Hintergrundfarbe</legend>
+                <input type="color" name="bgrColor" id="bgrColor">
+                </fieldset>
+                <br>
+            <fieldset>   
+                <legend>Auswahl Kartenfarbe</legend>
+                <input type="color" name="cardColor" id="cardColor">
+            </fieldset> 
+                <br>
+            <fieldset>
+                <legend>Auswahl Schriftfarbe</legend>
+                <input type="color" name="fontColor" id="fontColor">
+            </fieldset>
+                <br>
+            <fieldset id="fontSelection">  
+                <legend>Auswahl Schriftart</legend>
+                <input type="radio" name="fontSelection" id="fontSelection1" value="'Courier New', Courier, monospac">
+                    <label for="fontSelection1" id="font1">Courier New</label>
+                    <br>
+                <input type="radio" name="fontSelection" id="fontSelection2" value="'Times New Roman', Times, serif">
+                    <label for="fontSelection2" id="font2">Times New Roman</label>
+                    <br>
+                <input type="radio" name="fontSelection" id="fontSelection3" value="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+                    <label for="fontSelection3" id="font3">Segoe UI</label>
+            </fieldset>  
+        </div>
+        </form>
+        <button>Start</button>
+    </div>
+    
+</body>
+</html>
