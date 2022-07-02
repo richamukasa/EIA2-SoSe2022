@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-02T09:41:52.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.65" etag="653CoxzBIXJVXEGpISrR" version="20.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-02T09:55:40.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.65" etag="C7lKiXS11XItWSZXdobk" version="20.0.2" type="github">
   <diagram id="2XjKo7G8cihlhJ6fSeie" name="Page-1">
-    <mxGraphModel dx="1862" dy="1045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1052" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,6 +159,24 @@
             <mxPoint x="1770" y="1070" as="sourcePoint" />
             <mxPoint x="1820" y="1020" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OGwEZDKvqWSoJGv5Ddzu-52" value="backflip" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGwEZDKvqWSoJGv5Ddzu-53" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="870" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OGwEZDKvqWSoJGv5Ddzu-54" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="950" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OGwEZDKvqWSoJGv5Ddzu-55" value="this.action = ACTION.SIT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGwEZDKvqWSoJGv5Ddzu-56" value="this.action = ACTION.GO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OGwEZDKvqWSoJGv5Ddzu-57" value="do backflip motion one frame at the time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
