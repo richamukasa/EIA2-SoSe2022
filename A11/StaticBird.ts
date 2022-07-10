@@ -4,7 +4,7 @@
  * Datum: 28.05.2022
  * Quellen: Same old Richard
  */
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class StaticBird extends Immoveable {
 
         wingspan: number;

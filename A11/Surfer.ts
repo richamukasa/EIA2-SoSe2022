@@ -1,4 +1,4 @@
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class Surfer extends Immoveable {
         direction: number;
 

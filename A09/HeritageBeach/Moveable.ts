@@ -13,7 +13,7 @@ namespace HeritageBeach {
         }
 
         draw(): void {
-
+            
         }
 
         move(_timeslice: number): void {

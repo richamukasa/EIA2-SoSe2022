@@ -1,5 +1,5 @@
-var HeritageBeach;
-(function (HeritageBeach) {
+var ClickyBeach;
+(function (ClickyBeach) {
     class Moveable {
         position;
         velocity;
@@ -13,15 +13,15 @@ var HeritageBeach;
         draw() {
         }
         move(_timeslice) {
-            let offset = new HeritageBeach.Vector(this.velocity.x, this.velocity.y);
+            let offset = new ClickyBeach.Vector(this.velocity.x, this.velocity.y);
             offset.scale(_timeslice);
             this.position.addHor(offset);
             if (this.position.x < 0)
-                this.position.x += HeritageBeach.crc2.canvas.width;
-            if (this.position.x > HeritageBeach.crc2.canvas.width)
-                this.position.x -= HeritageBeach.crc2.canvas.width;
+                this.position.x += ClickyBeach.crc2.canvas.width;
+            if (this.position.x > ClickyBeach.crc2.canvas.width)
+                this.position.x -= ClickyBeach.crc2.canvas.width;
         }
     }
-    HeritageBeach.Moveable = Moveable;
-})(HeritageBeach || (HeritageBeach = {}));
+    ClickyBeach.Moveable = Moveable;
+})(ClickyBeach || (ClickyBeach = {}));
 //# sourceMappingURL=Moveable.js.map

@@ -7,7 +7,6 @@
 var HeritageBeach;
 (function (HeritageBeach) {
     class Human extends HeritageBeach.Immoveable {
-        skinColor;
         constructor(_position) {
             super(_position);
             this.skinColor = {

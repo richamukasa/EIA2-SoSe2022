@@ -1,4 +1,4 @@
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class Chiller extends Immoveable {
         draw(): void {
             let head: Path2D = new Path2D;

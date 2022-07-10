@@ -1,4 +1,4 @@
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class DynamicBird extends Moveable {
         wingspan: number;
         wingVelocity: number;

@@ -7,7 +7,9 @@
 namespace HeritageBeach {
     export class Tree extends Immoveable {
             // this.position = new Vector(randomInteger(0, canWidth * 0.18), randomInteger(canHeight * 0.2, canHeight * 0.25));
-        
+        constructor(_position: Vector) {
+            super(_position);
+        }
 
         draw(): void {
             let sizeFactor: number = this.position.y / crc2.canvas.height;

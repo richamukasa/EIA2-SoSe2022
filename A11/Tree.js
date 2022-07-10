@@ -4,49 +4,52 @@
  * Datum: 28.05.2022
  * Quellen: Noch immer ich
  */
-var HeritageBeach;
-(function (HeritageBeach) {
-    class Tree extends HeritageBeach.Immoveable {
+var ClickyBeach;
+(function (ClickyBeach) {
+    class Tree extends ClickyBeach.Immoveable {
         // this.position = new Vector(randomInteger(0, canWidth * 0.18), randomInteger(canHeight * 0.2, canHeight * 0.25));
+        update() {
+            this.draw();
+        }
         draw() {
-            let sizeFactor = this.position.y / HeritageBeach.crc2.canvas.height;
-            HeritageBeach.crc2.strokeStyle = "brown";
-            HeritageBeach.crc2.fillStyle = "brown";
-            HeritageBeach.crc2.save();
-            HeritageBeach.crc2.translate(this.position.x, this.position.y);
-            HeritageBeach.crc2.beginPath();
-            HeritageBeach.crc2.moveTo(0, 0);
-            HeritageBeach.crc2.lineTo(80 * sizeFactor, 0);
-            HeritageBeach.crc2.lineTo(40 * sizeFactor, 380 * sizeFactor);
-            HeritageBeach.crc2.lineTo(0, 0);
-            HeritageBeach.crc2.stroke();
-            HeritageBeach.crc2.fill();
-            HeritageBeach.crc2.closePath();
-            HeritageBeach.crc2.strokeStyle = "darkgreen";
-            HeritageBeach.crc2.fillStyle = "lightgreen";
-            HeritageBeach.crc2.translate(40 * sizeFactor, 0);
-            HeritageBeach.crc2.beginPath();
-            HeritageBeach.crc2.moveTo(0, 0);
-            HeritageBeach.crc2.lineTo(40 * sizeFactor, -40 * sizeFactor);
-            HeritageBeach.crc2.lineTo(120 * sizeFactor, 80 * sizeFactor);
-            HeritageBeach.crc2.lineTo(0, 0);
-            HeritageBeach.crc2.lineTo(-40 * sizeFactor, -40 * sizeFactor);
-            HeritageBeach.crc2.lineTo(-120 * sizeFactor, 80 * sizeFactor);
-            HeritageBeach.crc2.lineTo(0, 0);
-            HeritageBeach.crc2.stroke();
-            HeritageBeach.crc2.fill();
-            HeritageBeach.crc2.closePath();
-            HeritageBeach.crc2.translate(-40 * sizeFactor, -20 * sizeFactor);
-            HeritageBeach.crc2.beginPath();
-            HeritageBeach.crc2.moveTo(0, 0);
-            HeritageBeach.crc2.lineTo(80 * sizeFactor, 0);
-            HeritageBeach.crc2.lineTo(40 * sizeFactor, 140 * sizeFactor);
-            HeritageBeach.crc2.lineTo(0, 0);
-            HeritageBeach.crc2.stroke();
-            HeritageBeach.crc2.fill();
-            HeritageBeach.crc2.restore();
+            let sizeFactor = this.position.y / ClickyBeach.crc2.canvas.height;
+            ClickyBeach.crc2.strokeStyle = "brown";
+            ClickyBeach.crc2.fillStyle = "brown";
+            ClickyBeach.crc2.save();
+            ClickyBeach.crc2.translate(this.position.x, this.position.y);
+            ClickyBeach.crc2.beginPath();
+            ClickyBeach.crc2.moveTo(0, 0);
+            ClickyBeach.crc2.lineTo(80 * sizeFactor, 0);
+            ClickyBeach.crc2.lineTo(40 * sizeFactor, 380 * sizeFactor);
+            ClickyBeach.crc2.lineTo(0, 0);
+            ClickyBeach.crc2.stroke();
+            ClickyBeach.crc2.fill();
+            ClickyBeach.crc2.closePath();
+            ClickyBeach.crc2.strokeStyle = "darkgreen";
+            ClickyBeach.crc2.fillStyle = "lightgreen";
+            ClickyBeach.crc2.translate(40 * sizeFactor, 0);
+            ClickyBeach.crc2.beginPath();
+            ClickyBeach.crc2.moveTo(0, 0);
+            ClickyBeach.crc2.lineTo(40 * sizeFactor, -40 * sizeFactor);
+            ClickyBeach.crc2.lineTo(120 * sizeFactor, 80 * sizeFactor);
+            ClickyBeach.crc2.lineTo(0, 0);
+            ClickyBeach.crc2.lineTo(-40 * sizeFactor, -40 * sizeFactor);
+            ClickyBeach.crc2.lineTo(-120 * sizeFactor, 80 * sizeFactor);
+            ClickyBeach.crc2.lineTo(0, 0);
+            ClickyBeach.crc2.stroke();
+            ClickyBeach.crc2.fill();
+            ClickyBeach.crc2.closePath();
+            ClickyBeach.crc2.translate(-40 * sizeFactor, -20 * sizeFactor);
+            ClickyBeach.crc2.beginPath();
+            ClickyBeach.crc2.moveTo(0, 0);
+            ClickyBeach.crc2.lineTo(80 * sizeFactor, 0);
+            ClickyBeach.crc2.lineTo(40 * sizeFactor, 140 * sizeFactor);
+            ClickyBeach.crc2.lineTo(0, 0);
+            ClickyBeach.crc2.stroke();
+            ClickyBeach.crc2.fill();
+            ClickyBeach.crc2.restore();
         }
     }
-    HeritageBeach.Tree = Tree;
-})(HeritageBeach || (HeritageBeach = {}));
+    ClickyBeach.Tree = Tree;
+})(ClickyBeach || (ClickyBeach = {}));
 //# sourceMappingURL=Tree.js.map

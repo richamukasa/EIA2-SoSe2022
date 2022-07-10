@@ -1,10 +1,10 @@
 /**
- * Aufgabe: L09.2 Strand: Classes
+ * Aufgabe: L11 Strand: Clickable
  * Matrikel: 270000
- * Datum: 28.05.2022
- * Quellen: It was I
+ * Datum: 09.07.2022
+ * Quellen: Ann-Kathrin Pfeffer und ich
  */
-namespace HeritageBeach {
+namespace ClickyBeach {
     export let crc2: CanvasRenderingContext2D;
     export let canWidth: number;
     export let canHeight: number;
@@ -14,6 +14,15 @@ namespace HeritageBeach {
         r: number;
         g: number;
         b: number;
+    }
+
+    export enum ACTION {
+        REST,
+        GO,
+        RETURN,
+        SURF,
+        BACKFLIP,
+        STEAM
     }
 
     let moveables: Moveable[] = [];
@@ -39,6 +48,8 @@ namespace HeritageBeach {
         draw();
 
         window.setInterval(update, 20);
+
+        canvas.addEventListener("mousedown", screenClicked);
     }
 
     export function randomInteger(_min: number, _max: number): number {
@@ -77,23 +88,13 @@ namespace HeritageBeach {
         }
     }
 
-    function createClouds(_nClouds: number): void {
-        for (let i: number = 0; i < _nClouds; i++) {
-            let position: Vector = new Vector(randomFloat(0, canWidth), randomFloat(canHeight * 0.046, canHeight * 0.139));
-            let velocity: Vector = new Vector(randomFloat(-position.x, position.x), position.y);
-            let speed: number = randomFloat(1 / 5000, 1 / 2000);
-            let cloud: Moveable = new Cloud(position, velocity, speed);
-            moveables.push(cloud);
-        }
-    }
-
     function update(): void {
         drawSky();
         drawOcean();
         drawSand();
 
         for (let immoveable of immoveables) {
-            immoveable.draw();
+            immoveable.update();
         }
 
         for (let moveable of moveables) {
@@ -167,47 +168,57 @@ namespace HeritageBeach {
 
     }
 
-    function createChillers(_nHuman: number): void {
+    function createHumans(_nHuman: number): void {
         for (let i: number = 0; i < _nHuman; i++) {
             let position: Vector = new Vector(randomInteger(canWidth * -0.01, canWidth * 0.247), randomInteger(canHeight * 0.44, canHeight * 0.926));
-            let chiller: Immoveable = new Chiller(position);
+            let chiller: Immoveable = new Human(position);
             immoveables.push(chiller);
         }
     }
 
-    function createSurfers(_nHuman: number): void {
-        for (let i: number = 0; i < _nHuman; i++) {
-        let chillPosition: Vector = new Vector(randomInteger(canWidth * -0.01, canWidth * 0.247), randomInteger(canHeight * 0.44, canHeight * 0.926));
-        let position: Vector = new Vector(randomInteger(canWidth * 0.26, canWidth * 0.964), randomInteger(canHeight * 0.37, canHeight * 0.625));
-        let surfer: Immoveable = new Surfer(position);
-        immoveables.push(surfer);
+    function screenClicked(_event: MouseEvent): void {
+        console.log("Screen was clicked");
+        let hotspot: Vector = new Vector(_event.clientX - crc2.canvas.offsetLeft, _event.clientY - crc2.canvas.offsetTop);
+        console.log(hotspot);
+        let hit: Immoveable | null = getHit(hotspot);
+
+        if (hit instanceof Ship) {
+            console.log("NICHT UNSERE MARINEEEE!");
+            hit.action = ACTION.STEAM;
+        } else if (hit instanceof Human) {
+            console.log("Stop it.");
+            hit.action = ACTION.GO;
         }
+
+
     }
+
+    function getHit(_hotspot: Vector): Immoveable | null {
+        for (let immovable of immoveables) {
+            if (immovable.clicked(_hotspot)) {
+                return immovable;
+            }
+        }
+        return null;
+    }
+
     function draw(): void {
-        let cloudAmmount: number = randomInteger(5, 12);
-        let treeAmmount: number = randomInteger(10, 20);
-        let birdAmmount: number = randomInteger(10, 20);
-        let surfAmmount: number = randomInteger(3, 6);
-        let chillAmmount: number = randomInteger(5, 10);
+        let trees: number = randomInteger(10, 20);
+        let birds: number = randomInteger(10, 20);
+        let humans: number = randomInteger(3, 12);
         let initMountain: Vector = new Vector(0, canHeight * 0.12);
 
         drawSky();
-        
+
         drawOcean();
         drawSand();
 
-        createTrees(treeAmmount);
+        createTrees(trees);
 
+        createMovingBirds(birds);
+        createStaticBirds(birds);
 
-
-        createClouds(cloudAmmount);
-
-        createMovingBirds(birdAmmount);
-        createStaticBirds(birdAmmount);
-
-        createChillers(surfAmmount);
-        createSurfers(surfAmmount);
-
+        createHumans(humans);
 
         createShip();
     }

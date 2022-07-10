@@ -1,4 +1,4 @@
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class Mountain extends Immoveable {
 
         draw(): void {

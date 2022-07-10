@@ -8,6 +8,9 @@ var HeritageBeach;
 (function (HeritageBeach) {
     class Tree extends HeritageBeach.Immoveable {
         // this.position = new Vector(randomInteger(0, canWidth * 0.18), randomInteger(canHeight * 0.2, canHeight * 0.25));
+        constructor(_position) {
+            super(_position);
+        }
         draw() {
             let sizeFactor = this.position.y / HeritageBeach.crc2.canvas.height;
             HeritageBeach.crc2.strokeStyle = "brown";

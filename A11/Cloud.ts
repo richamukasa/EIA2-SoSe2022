@@ -4,7 +4,7 @@
  * Datum: 28.05.2022
  * Quellen: Richard A. Mukasa
  */
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class Cloud extends Moveable {
         // this.position = new Vector(randomInteger(0, canWidth), randomInteger(canHeight * 0.046, canHeight * 0.139));
 

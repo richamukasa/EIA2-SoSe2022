@@ -6,8 +6,6 @@
  */
 namespace HeritageBeach {
     export class Human extends Immoveable {
-        skinColor: RGBColor;
-
         constructor(_position: Vector) {
             super(_position);
             this.skinColor = {

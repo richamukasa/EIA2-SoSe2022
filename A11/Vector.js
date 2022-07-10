@@ -4,8 +4,8 @@
  * Datum: 28.05.2022
  * Quellen: Still me
  */
-var HeritageBeach;
-(function (HeritageBeach) {
+var ClickyBeach;
+(function (ClickyBeach) {
     class Vector {
         x;
         y;
@@ -21,6 +21,6 @@ var HeritageBeach;
             this.x += _addend.x;
         }
     }
-    HeritageBeach.Vector = Vector;
-})(HeritageBeach || (HeritageBeach = {}));
+    ClickyBeach.Vector = Vector;
+})(ClickyBeach || (ClickyBeach = {}));
 //# sourceMappingURL=Vector.js.map

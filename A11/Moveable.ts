@@ -1,4 +1,4 @@
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class Moveable {
         position: Vector;
         velocity: Vector;

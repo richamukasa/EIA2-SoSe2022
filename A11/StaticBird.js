@@ -4,9 +4,9 @@
  * Datum: 28.05.2022
  * Quellen: Same old Richard
  */
-var HeritageBeach;
-(function (HeritageBeach) {
-    class StaticBird extends HeritageBeach.Immoveable {
+var ClickyBeach;
+(function (ClickyBeach) {
+    class StaticBird extends ClickyBeach.Immoveable {
         wingspan;
         wingVelocity;
         constructor(_position) {
@@ -16,21 +16,21 @@ var HeritageBeach;
         }
         draw() {
             let birdColor = {
-                r: HeritageBeach.randomInteger(0, 255),
-                g: HeritageBeach.randomInteger(0, 255),
-                b: HeritageBeach.randomInteger(0, 255)
+                r: ClickyBeach.randomInteger(0, 255),
+                g: ClickyBeach.randomInteger(0, 255),
+                b: ClickyBeach.randomInteger(0, 255)
             };
-            HeritageBeach.crc2.strokeStyle = `rgb(${birdColor.r}, ${birdColor.g}, ${birdColor.b})`;
-            HeritageBeach.crc2.save();
-            HeritageBeach.crc2.translate(this.position.x, this.position.y);
-            HeritageBeach.crc2.beginPath();
-            HeritageBeach.crc2.moveTo(0, this.wingspan);
-            HeritageBeach.crc2.lineTo(10, this.wingspan);
-            HeritageBeach.crc2.lineTo(15, 0);
-            HeritageBeach.crc2.lineTo(20, this.wingspan);
-            HeritageBeach.crc2.lineTo(30, this.wingspan);
-            HeritageBeach.crc2.stroke();
-            HeritageBeach.crc2.restore();
+            ClickyBeach.crc2.strokeStyle = `rgb(${birdColor.r}, ${birdColor.g}, ${birdColor.b})`;
+            ClickyBeach.crc2.save();
+            ClickyBeach.crc2.translate(this.position.x, this.position.y);
+            ClickyBeach.crc2.beginPath();
+            ClickyBeach.crc2.moveTo(0, this.wingspan);
+            ClickyBeach.crc2.lineTo(10, this.wingspan);
+            ClickyBeach.crc2.lineTo(15, 0);
+            ClickyBeach.crc2.lineTo(20, this.wingspan);
+            ClickyBeach.crc2.lineTo(30, this.wingspan);
+            ClickyBeach.crc2.stroke();
+            ClickyBeach.crc2.restore();
             if (this.wingspan == 5)
                 this.wingVelocity = -.25;
             if (this.wingspan == -5)
@@ -38,6 +38,6 @@ var HeritageBeach;
             this.wingspan += this.wingVelocity;
         }
     }
-    HeritageBeach.StaticBird = StaticBird;
-})(HeritageBeach || (HeritageBeach = {}));
+    ClickyBeach.StaticBird = StaticBird;
+})(ClickyBeach || (ClickyBeach = {}));
 //# sourceMappingURL=StaticBird.js.map

@@ -4,12 +4,14 @@
  * Datum: 28.05.2022
  * Quellen: Noch immer ich
  */
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class Tree extends Immoveable {
             // this.position = new Vector(randomInteger(0, canWidth * 0.18), randomInteger(canHeight * 0.2, canHeight * 0.25));
-        
+        public update(): void {
+            this.draw();
+        }
 
-        draw(): void {
+        protected draw(): void {
             let sizeFactor: number = this.position.y / crc2.canvas.height;
             crc2.strokeStyle = "brown";
             crc2.fillStyle = "brown";

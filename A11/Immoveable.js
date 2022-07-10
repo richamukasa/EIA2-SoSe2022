@@ -1,20 +1,30 @@
-var HeritageBeach;
-(function (HeritageBeach) {
+var ClickyBeach;
+(function (ClickyBeach) {
     class Immoveable {
         position;
         skinColor;
+        action;
         constructor(_position) {
             this.position = _position;
             this.skinColor = {
-                r: HeritageBeach.randomInteger(0, 255),
-                g: HeritageBeach.randomInteger(0, 255),
-                b: HeritageBeach.randomInteger(0, 255)
+                r: ClickyBeach.randomInteger(0, 255),
+                g: ClickyBeach.randomInteger(0, 255),
+                b: ClickyBeach.randomInteger(0, 255)
             };
+            this.action = ClickyBeach.ACTION.REST;
             this.draw();
         }
-        draw() {
+        clicked(_hotspot) {
+            let hitbox = 120;
+            let difference = new ClickyBeach.Vector(_hotspot.x - this.position.x, _hotspot.y - this.position.y + 50);
+            if ((Math.abs(difference.x) < hitbox && Math.abs(difference.y) < hitbox)) {
+                console.log("Was klickst du mich an?");
+            }
+            return (Math.abs(difference.x) < hitbox && Math.abs(difference.y) < hitbox);
+        }
+        update() {
         }
     }
-    HeritageBeach.Immoveable = Immoveable;
-})(HeritageBeach || (HeritageBeach = {}));
+    ClickyBeach.Immoveable = Immoveable;
+})(ClickyBeach || (ClickyBeach = {}));
 //# sourceMappingURL=Immoveable.js.map

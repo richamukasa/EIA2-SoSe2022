@@ -4,7 +4,7 @@
  * Datum: 28.05.2022
  * Quellen: Still me
  */
-namespace HeritageBeach {
+namespace ClickyBeach {
     export class Vector {
         x: number;
         y: number;
