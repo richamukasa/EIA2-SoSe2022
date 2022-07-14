@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T11:10:48.664Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="GWW_bKUG4nWhb1h21K9t" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T11:12:42.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="JLrJiqDsIJ9ZIoVnfLxl" version="20.0.4" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
-    <mxGraphModel dx="1008" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="576" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,8 +221,18 @@
         <mxCell id="FBg79oT1Klj4Wz8EOWci-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.479;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FBg79oT1Klj4Wz8EOWci-41" target="FBg79oT1Klj4Wz8EOWci-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FBg79oT1Klj4Wz8EOWci-151" value="this.field.fertilizer &amp;gt; this.maxFertilizer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FBg79oT1Klj4Wz8EOWci-106">
+          <mxGeometry x="-0.3361" y="1" relative="1" as="geometry">
+            <mxPoint x="37" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FBg79oT1Klj4Wz8EOWci-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FBg79oT1Klj4Wz8EOWci-41" target="FBg79oT1Klj4Wz8EOWci-43">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FBg79oT1Klj4Wz8EOWci-150" value="[this.field.fertilizer&lt;br&gt;is between&lt;br&gt;1 and maxFertilizer]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FBg79oT1Klj4Wz8EOWci-145">
+          <mxGeometry x="-0.7999" y="-3" relative="1" as="geometry">
+            <mxPoint x="46" y="-3" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FBg79oT1Klj4Wz8EOWci-41" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1260" y="780" width="30" height="30" as="geometry" />
