@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T10:25:56.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="HqRnUtD0YSFKDb-qyUQM" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T10:27:36.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="JVCfPgnnY2x5uIFbU4oL" version="20.0.4" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
     <mxGraphModel dx="1210" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry y="208" width="160" height="82" as="geometry" />
         </mxCell>
         <mxCell id="FBg79oT1Klj4Wz8EOWci-9" value="Field" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="220" width="160" height="154" as="geometry" />
+          <mxGeometry x="570" y="220" width="160" height="250" as="geometry" />
         </mxCell>
         <mxCell id="FBg79oT1Klj4Wz8EOWci-10" value="+ status: STATUS&#xa;+ position: Vector&#xa;+ water: number&#xa;+ fertilizer: number&#xa;# spawnPosition: number&#xa;# plant:Plant[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FBg79oT1Klj4Wz8EOWci-9">
           <mxGeometry y="26" width="160" height="94" as="geometry" />
@@ -37,8 +37,8 @@
         <mxCell id="FBg79oT1Klj4Wz8EOWci-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FBg79oT1Klj4Wz8EOWci-9">
           <mxGeometry y="120" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="FBg79oT1Klj4Wz8EOWci-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FBg79oT1Klj4Wz8EOWci-9">
-          <mxGeometry y="128" width="160" height="26" as="geometry" />
+        <mxCell id="FBg79oT1Klj4Wz8EOWci-12" value="constructor(_position: Vector)&#xa;+ clicked(_event: MouseEvent)&#xa;+ return(): void&#xa;+ water(): void&#xa;+ fertilize(): void&#xa;+ info(): void&#xa;+ plant(): Plant&#xa;+ grow(_plant: Plant): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FBg79oT1Klj4Wz8EOWci-9">
+          <mxGeometry y="128" width="160" height="122" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
