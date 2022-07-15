@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T09:32:22.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="DaQM4x9R3LUpP5wpcVsx" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-15T09:36:25.681Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="8hU_Hz0qFs5-nfWaWmo0" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
-    <mxGraphModel dx="1201" dy="3002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="575" dy="2656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -711,7 +711,7 @@
           <mxGeometry x="120" y="-700" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-30" value="Settings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-2150" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="-1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-31" value="click field" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="-960" width="120" height="60" as="geometry" />
@@ -729,7 +729,7 @@
           <mxGeometry x="720" y="-560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-36" value="go shopping" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-490" width="120" height="60" as="geometry" />
+          <mxGeometry x="1850" y="-670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-38" value="plant" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="-1140" width="120" height="60" as="geometry" />
@@ -762,19 +762,19 @@
           <mxGeometry x="880" y="-490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-50" value="click shop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="-600" width="120" height="60" as="geometry" />
+          <mxGeometry x="1690" y="-670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-51" value="set start budget" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="-2200" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="-1319" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-52" value="set fluctuation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="535" y="-2110" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="-1229" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-53" value="buy seeds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="-730" width="120" height="60" as="geometry" />
+          <mxGeometry x="2020" y="-720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-54" value="buy fertilizer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="-640" width="120" height="60" as="geometry" />
+          <mxGeometry x="2020" y="-620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-55" value="delete all vermin on the plant" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="-900" width="120" height="60" as="geometry" />
@@ -948,6 +948,57 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="920" y="-390" as="sourcePoint" />
             <mxPoint x="970" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-93" value="add fertilizer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="-720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-94" value="subtract price from budget" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2361" y="-670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-95" value="add seeds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="-620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-97" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-50" target="FsUDHYmfjSUkFlo_isL7-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1910" y="-600" as="sourcePoint" />
+            <mxPoint x="1840" y="-600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-98" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-36" target="FsUDHYmfjSUkFlo_isL7-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1830" y="-540" as="sourcePoint" />
+            <mxPoint x="1880" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-99" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=-0.017;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-36" target="FsUDHYmfjSUkFlo_isL7-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1830" y="-540" as="sourcePoint" />
+            <mxPoint x="1880" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-100" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-93" target="FsUDHYmfjSUkFlo_isL7-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2080" y="-540" as="sourcePoint" />
+            <mxPoint x="2130" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-101" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-54" target="FsUDHYmfjSUkFlo_isL7-95">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2080" y="-540" as="sourcePoint" />
+            <mxPoint x="2130" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-103" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-94" target="FsUDHYmfjSUkFlo_isL7-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="-540" as="sourcePoint" />
+            <mxPoint x="2410" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-104" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-95" target="FsUDHYmfjSUkFlo_isL7-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="-540" as="sourcePoint" />
+            <mxPoint x="2410" y="-590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
