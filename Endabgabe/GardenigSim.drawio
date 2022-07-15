@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T16:15:42.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="_q8E5a5ePhSy-sgrs9OO" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-15T07:57:19.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="TgLebITwPOGcowNu8i1a" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
-    <mxGraphModel dx="1008" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1210" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -450,7 +450,7 @@
         <mxCell id="FBg79oT1Klj4Wz8EOWci-173" value="rot" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;arcSize=5;" parent="FBg79oT1Klj4Wz8EOWci-189" vertex="1">
           <mxGeometry y="30" width="200" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="FBg79oT1Klj4Wz8EOWci-174" value="_speed? number = 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="FBg79oT1Klj4Wz8EOWci-189" vertex="1">
+        <mxCell id="FBg79oT1Klj4Wz8EOWci-174" value="_speed: number = 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="FBg79oT1Klj4Wz8EOWci-189" vertex="1">
           <mxGeometry x="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FBg79oT1Klj4Wz8EOWci-175" value="" style="shape=collate;whiteSpace=wrap;html=1;" parent="FBg79oT1Klj4Wz8EOWci-189" vertex="1">
@@ -553,59 +553,59 @@
         <mxCell id="FBg79oT1Klj4Wz8EOWci-199" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1305" y="670" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-26" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="iL5BBgo8cgisSres4U-V-26" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="40" y="1700" width="660" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-1" value="update" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=4;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-1" value="update" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=4;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry width="660" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-3" value="this.fly()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-3" value="this.fly()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry x="380" y="20" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-4" value="this.eat()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-4" value="this.eat()" style="shape=mxgraph.uml25.behaviorAction;html=1;rounded=1;absoluteArcSize=1;arcSize=10;align=left;spacingLeft=5;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry x="380" y="90" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-5" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-5" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry x="540" y="100" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-4" target="iL5BBgo8cgisSres4U-V-5">
+        <mxCell id="iL5BBgo8cgisSres4U-V-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-4" target="iL5BBgo8cgisSres4U-V-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-7" target="iL5BBgo8cgisSres4U-V-4">
+        <mxCell id="iL5BBgo8cgisSres4U-V-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-7" target="iL5BBgo8cgisSres4U-V-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-7" value="" style="shape=collate;whiteSpace=wrap;html=1;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-7" value="" style="shape=collate;whiteSpace=wrap;html=1;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry x="310" y="95" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-8" target="iL5BBgo8cgisSres4U-V-7">
+        <mxCell id="iL5BBgo8cgisSres4U-V-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-8" target="iL5BBgo8cgisSres4U-V-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-25" value="[this.action == ACTION.EAT]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iL5BBgo8cgisSres4U-V-16">
+        <mxCell id="iL5BBgo8cgisSres4U-V-25" value="[this.action == ACTION.EAT]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iL5BBgo8cgisSres4U-V-16" vertex="1" connectable="0">
           <mxGeometry x="-0.5916" y="2" relative="1" as="geometry">
             <mxPoint x="64" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-8" target="iL5BBgo8cgisSres4U-V-3">
+        <mxCell id="iL5BBgo8cgisSres4U-V-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-8" target="iL5BBgo8cgisSres4U-V-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-24" value="[this.action == ACTION.FLY]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iL5BBgo8cgisSres4U-V-20">
+        <mxCell id="iL5BBgo8cgisSres4U-V-24" value="[this.action == ACTION.FLY]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iL5BBgo8cgisSres4U-V-20" vertex="1" connectable="0">
           <mxGeometry x="-0.2526" relative="1" as="geometry">
             <mxPoint x="45" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-8" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry x="80" y="100" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-12" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-12" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry x="610" y="100" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-3" target="iL5BBgo8cgisSres4U-V-12">
+        <mxCell id="iL5BBgo8cgisSres4U-V-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-3" target="iL5BBgo8cgisSres4U-V-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-5" target="iL5BBgo8cgisSres4U-V-12">
+        <mxCell id="iL5BBgo8cgisSres4U-V-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-5" target="iL5BBgo8cgisSres4U-V-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-8" target="iL5BBgo8cgisSres4U-V-12">
+        <mxCell id="iL5BBgo8cgisSres4U-V-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-8" target="iL5BBgo8cgisSres4U-V-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="95" y="170" />
@@ -613,15 +613,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-23" value="[this.action == ACTION.DEAD]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iL5BBgo8cgisSres4U-V-22">
+        <mxCell id="iL5BBgo8cgisSres4U-V-23" value="[this.action == ACTION.DEAD]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="iL5BBgo8cgisSres4U-V-22" vertex="1" connectable="0">
           <mxGeometry x="-0.7645" y="1" relative="1" as="geometry">
             <mxPoint x="88" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-13" target="iL5BBgo8cgisSres4U-V-8">
+        <mxCell id="iL5BBgo8cgisSres4U-V-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="iL5BBgo8cgisSres4U-V-26" source="iL5BBgo8cgisSres4U-V-13" target="iL5BBgo8cgisSres4U-V-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iL5BBgo8cgisSres4U-V-13" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="iL5BBgo8cgisSres4U-V-26">
+        <mxCell id="iL5BBgo8cgisSres4U-V-13" value="" style="ellipse;fillColor=#000000;strokeColor=none;" parent="iL5BBgo8cgisSres4U-V-26" vertex="1">
           <mxGeometry x="20" y="100" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
