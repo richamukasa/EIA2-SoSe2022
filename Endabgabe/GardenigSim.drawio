@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-15T09:03:02.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="1WS6Y4VMbq1doN1Cj-iU" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-15T09:04:47.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="xIDhLBYCF8sWztELMndk" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
     <mxGraphModel dx="1201" dy="1833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -710,28 +710,28 @@
         <mxCell id="FsUDHYmfjSUkFlo_isL7-29" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="-700" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-30" value="Werte einstellen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-30" value="Settings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-31" value="Feld anklicken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-31" value="Click field" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-780" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-32" value="Schädlinge bekämpfen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-32" value="fight vermins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-33" value="Gießen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-33" value="water the plants" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-614.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-34" value="Düngen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-34" value="fertilize" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-524" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-35" value="Ernten" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-35" value="harvest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-36" value="Einkaufen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-38" value="Pflanze pflanzen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-38" value="plant" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="-700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
