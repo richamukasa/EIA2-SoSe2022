@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T14:01:24.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="xjbqPTb4EG6gFmqZs6_s" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-17T14:02:45.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="oDpenGtzMQ73O5TvUl50" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
     <mxGraphModel dx="767" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1854,6 +1854,12 @@
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-389" value="account.spinach += parseInt(`${formData.get(&quot;spinachSeeds&quot;)}`)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="6410" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-390" value="account.fertilizer += parseInt(`${formData.get(&quot;fertilizer&quot;)}`)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="6470" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-391" value="account.pesticide += parseInt(`${formData.get(&quot;pesticide&quot;)}`)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="6530" width="255" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
