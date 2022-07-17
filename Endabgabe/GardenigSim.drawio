@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-17T13:52:54.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="PzaC5J7_-xrU6kz478Ie" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-17T13:55:54.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="F0CWLyaLkSirYdz1i1qG" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
     <mxGraphModel dx="767" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1837,8 +1837,8 @@
         <mxCell id="FsUDHYmfjSUkFlo_isL7-383" value="buy" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="10" y="6050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-384" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="6050" width="120" height="60" as="geometry" />
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-384" value="let formData: FormData = FormData(document.forms.shop)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="6110" width="205" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
