@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T09:23:35.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="6I2wJD2-nZ_7lOo6tGvX" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T09:24:32.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="kTgCG22cN5uj2R6R5W3W" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
     <mxGraphModel dx="1315" dy="1897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2156,7 +2156,7 @@
         <mxCell id="FsUDHYmfjSUkFlo_isL7-487" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="FsUDHYmfjSUkFlo_isL7-488" target="FsUDHYmfjSUkFlo_isL7-490" parent="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FsUDHYmfjSUkFlo_isL7-488" value="clickedField[0].pictures = [&quot;sprossling.png&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;];" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-488" value="clickedField[0].pictures = [&quot;sprossling.png&quot;, &quot;Kürbis-unreif.png&quot;, &quot;Kürbis-reif.png&quot;, &quot;Kürbis-überreif.png&quot;];" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="6870" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-489" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="FsUDHYmfjSUkFlo_isL7-490" target="FsUDHYmfjSUkFlo_isL7-492" parent="1">
