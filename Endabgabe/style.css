@@ -1,0 +1,104 @@
+body {
+    background-color: lightgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-color: #246308; */
+}
+
+fieldset {
+    border: none;
+}
+
+tr {
+    height: 30px;;
+}
+
+#info {
+    position: absolute;
+    margin-top: 100px;
+    width: 400px;
+    height: 600px;
+    border: solid;
+    visibility: hidden;
+    background-color: antiquewhite;
+}
+
+#veggie, #level, #growth, #health, #fieldWater, #fieldFert, #price {
+    text-align: center;
+}
+
+#shop {
+    margin-top: 100px;
+    margin-left: 1475px;
+    background-color: beige;
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    border: solid;
+    visibility: hidden;
+}
+
+#wrapper {
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 440px;
+    width: 975px;
+    height: 700px;
+    background-color: rgb(83, 192, 83);
+    border-width: 10px;
+    border-color: rgb(83, 192, 83);
+    border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 25px;
+}
+
+#settings {
+    position: relative;
+    margin: auto;
+}
+
+.buddn {
+    opacity: 0.8;
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    background-color: #3a0e0a;
+    border-color: #3a0e0a;
+    color: beige;
+    border-style: solid;
+}
+
+.buddn:hover {
+    opacity: 1;
+}
+
+.ready, .occupied, .dead {
+    position: absolute;
+    margin: auto;
+    border-width: 5px;
+    border-color: #3a0e0a;
+    border-style: solid;
+    width: 90px;
+    height: 90px;
+    background-color:brown;
+
+}
+
+#water {
+    color:blue;
+    background-color: aqua;
+    border-color: aqua;
+}
+
+#fertilize {
+    color: #3a0e0a;
+    background-color: #e7ab04;
+    border-color: #e7ab04;
+}
+
+#liberate {
+    color: rgb(159, 255, 5);
+    background-color: green;
+    border-color: green;
+}

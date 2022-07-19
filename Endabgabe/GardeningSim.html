@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pardon your garden</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="Action.js"></script>
+    <script src="Growth.js"></script>
+    <script src="Status.js"></script>
+    <script src="Vector.js"></script>
+    <script src="Field.js"></script>
+    <script src="Account.js"></script>
+    <script src="Plant.js"></script>
+    <script src="Carrot.js"></script>
+    <script src="Cucumber.js"></script>
+    <script src="Potato.js"></script>
+    <script src="Pumpkin.js"></script>
+    <script src="Spinach.js"></script>
+    <script src="Main.js"></script>
+</head>
+
+<body>
+    <div id="info">
+        <fieldset id="detail">
+            <table>
+                <tr>
+                    <td>Veggie</td>
+                    <td id="veggie">none</td>
+                </tr>
+                <tr>
+                    <td>Level</td>
+                    <td id="level">none</td>
+                </tr>
+                <tr>
+                    <td>Growth</td>
+                    <td id="growth">none</td>
+                </tr>
+                <tr>
+                    <td>Health</td>
+                    <td id="health">none</td>
+                </tr>
+                <tr>
+                    <td>Water</td>
+                    <td id="fieldWater">none</td>
+                </tr>
+                <tr>
+                    <td>Fertilizer</td>
+                    <td id="fieldFert">none</td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td id="price">none</td>
+                </tr>
+            </table>
+
+        </fieldset>
+        <fieldset>
+            <form id="options">
+                <span class="buddn" id="carrot">Carrot: 5</span><br><br>
+                <span class="buddn" id="cucumber">Cucumber: 5</span><br><br>
+                <span class="buddn" id="potato">Potato: 5</span> <br><br>
+                <span class="buddn" id="pumpkin">Pumpkin: 5</span> <br><br>
+                <span class="buddn" id="spinach">Spinach: 5</span>
+            </form>
+        </fieldset>
+        <fieldset>
+            <span class="buddn" id="water">Water</span> <br><br>
+            <span class="buddn" id="fertilize">Fertilize: 0</span> <br><br>
+            <span class="buddn" id="liberate">Pesticide: 0</span>
+        </fieldset>
+
+    </div>
+    <div id="wrapper">
+        <div id="settings">
+            <form>
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td><label for="setMoney">How much ya got in your wallet kid</td>
+                            <td><input type="number" name="setMoney" id="setMoney" value="50" min="50"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="setCarrotMin">Carrot price min:</td>
+                            <td><input type="number" name="setCarrotMin" id="setCarrotMin" value="1" min="1" max="3"></td>
+                            <td><label for="setCarrotMax">max:</td>
+                            <td><input type="number" name="setCarrotMax" id="setCarrotMax" value="3" min="1" max="5"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="setCucMin">Cucumber price min:</td>
+                            <td><input type="number" name="setCucMin" id="setCucMin" value="1" min="1" max="3"></td>
+                            <td><label for="setCucMax">max:</td>
+                            <td><input type="number" name="setCucMax" id="setCucMax" value="3" min="1" max="5"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="setPotMin">Potato price min:</td>
+                            <td><input type="number" name="setPotMin" id="setPotMin" value="1" min="1" max="3"></td>
+                            <td><label for="setPotMax">max:</td>
+                            <td><input type="number" name="setPotMax" id="setPotMax" value="3" min="1" max="5"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="setPumpMin">Pumpkin price min:</td>
+                            <td><input type="number" name="setPumpMin" id="setPumpMin" value="1" min="1" max="3"></td>
+                            <td><label for="setPumpMax">max:</td>
+                            <td><input type="number"  name="setPumpMax" id="setPumpMax" value="3" min="1" max="5"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="setSpinMin">Spinach price min:</td>
+                            <td><input type="number" name="setSpinMin" id="setSpinMin" value="1" min="1" max="3"></td>
+                            <td><label for="setSpinMax">max:</td>
+                            <td><input type="number" name="setSpinMax" id="setSpinMax" value="3" min="1" max="5"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+            <span class="buddn" id="start">Let's grow some crops!</span>
+        </div>
+    </div>
+    <div id="shop">
+        <h1>Shop</h1>
+        <form id="range" name="shop">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><label for="carrotSeeds">Carrots</label></td>
+                        <td><input type="number" id="carrotSeeds" name="carrotSeeds" value="0" min="0"></td>
+                        <td>
+                            <p id="carrotSeedPrice">1.00 TSh.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="cucumberSeeds">Cucumber</label></td>
+                        <td><input type="number" id="cucumberSeeds" name="cucumberSeeds" value="0" min="0"></td>
+                        <td>
+                            <p id="cucumberSeedPrice">2.00 TSh.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="potatoSeeds">Potatos</label></td>
+                        <td><input type="number" id="potatoSeeds" name="potatoSeeds" value="0" min="0"></td>
+                        <td>
+                            <p id="potatoSeedPrice">0.50 TSh.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pumpkinSeeds">Pumpkin</label></td>
+                        <td><input type="number" id="pumpkinSeeds" name="pumpkinSeeds" value="0" min="0"></td>
+                        <td>
+                            <p id="pumpkinSeedPrice">3.00 TSh.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="spinachSeeds">Spinach</label></td>
+                        <td><input type="number" id="spinachSeeds" name="spinachSeeds" value="0" min="0"></td>
+                        <td>
+                            <p id="spinachSeedPrice">1.50 TSh.</p>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <table>
+                    <tr>
+                        <td><label for="fertilizer">Fertilizer</label></td>
+                        <td><input type="number" id="fertilizer" name="fertilizer" value="0" min="0"></td>
+                        <td>
+                            <p id="fertilizerPrice">5.00 TSh.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="pesticide">Pesticide</label></td>
+                        <td><input type="number" id="pesticide" name="pesticide" value="0" min="0"></td>
+                        <td>
+                            <p id="pesticidePrice">10.00 TSh.</p>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <p id="shoppingCart">Total: 0.00 TSh.</p>
+                <p id="wallet">Wallet: 100 TSh.</p>
+                <span class="buddn" id="buy">Buy</span>
+            </fieldset>
+        </form>
+    </div>
+</body>
