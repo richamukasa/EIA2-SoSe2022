@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T08:07:30.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="xLRR0xJw60TB1R5Ru0t9" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T08:12:15.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="6j1m36hfeNfxPY9YwhEc" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
-    <mxGraphModel dx="3453" dy="3079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1381" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-541" value="stonkSwing" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1148.5" y="7380" width="325" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-523" value="buy" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=1;" vertex="1" parent="1">
           <mxGeometry x="1069" y="6850" width="465" height="510" as="geometry" />
         </mxCell>
@@ -2296,6 +2299,51 @@
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-528" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1286.5" y="7310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-544" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-534" target="FsUDHYmfjSUkFlo_isL7-535">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-534" value="Carrot.price = Carrot.setFluctuation(carrotPriceMin, carrotPriceMax);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="7440" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-546" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-535" target="FsUDHYmfjSUkFlo_isL7-536">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-535" value="Cucumber.price = Cucumber.setFluctuation(cucPriceMin, cucPriceMax);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="7530" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-547" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-536" target="FsUDHYmfjSUkFlo_isL7-537">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-536" value="Potato.price = Potato.setFluctuation(potPriceMin, potPriceMax);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1201" y="7610" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-548" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-537" target="FsUDHYmfjSUkFlo_isL7-538">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-537" value="Pumpkin.price = Pumpkin.setFluctuation(pumpPriceMin, pumpPriceMax);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1202" y="7689" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-549" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-538" target="FsUDHYmfjSUkFlo_isL7-539">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-538" value="Spinach.price = Spinach.setFluctuation(spinPriceMin, spinPriceMax);" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1202" y="7770" width="218" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-550" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-539" target="FsUDHYmfjSUkFlo_isL7-540">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-539" value="Update the shop&#39;s seed prices to half the vegetable&#39;s price" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1251" y="7850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-540" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="7930" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-543" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-542" target="FsUDHYmfjSUkFlo_isL7-534">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-542" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1295" y="7390" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
