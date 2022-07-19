@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T08:29:56.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="hCwBR49R05j2UYYgCf3v" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T08:33:24.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="E5EgBL14jSYXVHVyMD0z" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
     <mxGraphModel dx="2762" dy="2697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-603" value="handleLoad" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="7069" width="530" height="330" as="geometry" />
+        </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-598" value="createGarden" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=1;" vertex="1" parent="1">
           <mxGeometry x="1730" y="6964" width="720" height="1630" as="geometry" />
         </mxCell>
@@ -2488,6 +2491,32 @@
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-599" value="_event: MouseEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2165" y="6930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-606" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-601" target="FsUDHYmfjSUkFlo_isL7-602">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-601" value="&lt;div&gt;document.getElementById(&quot;start&quot;).addEventListener(&quot;click&quot;, createGarden);&lt;/div&gt;&lt;div&gt;document.getElementById(&quot;buy&quot;).addEventListener(&quot;click&quot;, buy);&lt;/div&gt;&lt;div&gt;document.getElementById(&quot;shop&quot;).addEventListener(&quot;input&quot;, shoppingCart);&lt;/div&gt;&lt;div&gt;document.getElementById(&quot;carrot&quot;).addEventListener(&quot;click&quot;, carrot);&lt;/div&gt;&lt;div&gt;document.getElementById(&quot;cucumber&quot;).addEventListener(&quot;click&quot;, cucumber);&lt;/div&gt;&lt;div&gt;document.getElementById(&quot;potato&quot;).addEventListener(&quot;click&quot;, potato);&lt;/div&gt;&lt;div&gt;document.getElementById(&quot;pumpkin&quot;).addEventListener(&quot;click&quot;, pumpkin);&lt;/div&gt;&lt;div&gt;document.getElementById(&quot;spinach&quot;).addEventListener(&quot;click&quot;, spinach);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="7114" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-607" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-602" target="FsUDHYmfjSUkFlo_isL7-605">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-602" value="&lt;div&gt;window.setInterval(stonkSwing, 20000);&lt;/div&gt;&lt;div&gt;window.setInterval(update);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2635" y="7279" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-608" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-604" target="FsUDHYmfjSUkFlo_isL7-601">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2830" y="7094" />
+              <mxPoint x="2750" y="7094" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-604" value="_event: Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="7029" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-605" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2735" y="7359" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
