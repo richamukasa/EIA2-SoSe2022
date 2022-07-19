@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T07:57:32.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="kc0j6ZSsZs_9v0bD9LUJ" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T08:07:30.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.115 Safari/537.36 OPR/88.0.4412.75" etag="xLRR0xJw60TB1R5Ru0t9" version="20.1.1" type="github">
   <diagram id="IOWlBg4PVeYaBK9nSRcO" name="Page-1">
-    <mxGraphModel dx="1625" dy="2068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3453" dy="3079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-523" value="buy" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1069" y="6850" width="465" height="510" as="geometry" />
+        </mxCell>
         <mxCell id="FBg79oT1Klj4Wz8EOWci-190" value="constructor" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=3;" parent="1" vertex="1">
           <mxGeometry x="1200" y="127" width="230" height="600" as="geometry" />
         </mxCell>
@@ -2226,6 +2229,73 @@
         </mxCell>
         <mxCell id="FsUDHYmfjSUkFlo_isL7-513" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="250" y="7930" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-515" value="shoppingCart" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;align=left;arcSize=2;" vertex="1" parent="1">
+          <mxGeometry x="530" y="7410" width="583" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-520" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-516" target="FsUDHYmfjSUkFlo_isL7-517">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-516" value="&lt;div&gt;let formData: FormData = new FormData(document.forms[1]);&lt;/div&gt;&lt;div&gt;let carrots: number = parseInt(`${formData.get(&quot;carrotSeeds&quot;)}`) * Carrot.price;&lt;/div&gt;&lt;div&gt;let cucumbers: number = parseInt(`${formData.get(&quot;cucumberSeeds&quot;)}`) * Cucumber.price;&lt;/div&gt;&lt;div&gt;let potatos: number = parseInt(`${formData.get(&quot;potatoSeeds&quot;)}`) * Potato.price;&lt;/div&gt;&lt;div&gt;let pumpkins: number = parseInt(`${formData.get(&quot;pumpkinSeeds&quot;)}`) * Pumpkin.price;&lt;/div&gt;&lt;div&gt;let spinaches: number = parseInt(`${formData.get(&quot;spinachSeeds&quot;)}`) * Spinach.price;&lt;/div&gt;&lt;div&gt;let fertilizer: number = parseInt(`${formData.get(&quot;fertilizer&quot;)}`) * 5;&lt;/div&gt;&lt;div&gt;let pesticide: number = parseInt(`${formData.get(&quot;pesticide&quot;)}`) * 10;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="574" y="7460" width="495" height="139" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-521" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-517" target="FsUDHYmfjSUkFlo_isL7-518">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-517" value="document.getElementById(&quot;shoppingCart&quot;).innerHTML = `Total: ${(carrots + cucumbers + potatos + pumpkins + spinaches) / 2 + fertilizer + pesticide} TSh.`" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="656.5" y="7630" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-518" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="806.5" y="7730" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-519" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-514" target="FsUDHYmfjSUkFlo_isL7-516">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="933" y="7440" />
+              <mxPoint x="822" y="7440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-514" value="_event: Event" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="873" y="7370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-530" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-522" target="FsUDHYmfjSUkFlo_isL7-525">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-522" value="&lt;div&gt;let formData: FormData = new FormData(document.forms[1]);&lt;/div&gt;&lt;div&gt;let carrots: number = parseInt(`${formData.get(&quot;carrotSeeds&quot;)}`);&lt;/div&gt;&lt;div&gt;let cucmbers: number = parseInt(`${formData.get(&quot;cucumberSeeds&quot;)}`);&lt;/div&gt;&lt;div&gt;let potatos: number = parseInt(`${formData.get(&quot;potatoSeeds&quot;)}`);&lt;/div&gt;&lt;div&gt;let pumpkins: number = parseInt(`${formData.get(&quot;pumpkinSeeds&quot;)}`);&lt;/div&gt;&lt;div&gt;let spinaches: number = parseInt(`${formData.get(&quot;spinachSeeds&quot;)}`);&lt;/div&gt;&lt;div&gt;let fertilizer: number = parseInt(`${formData.get(&quot;fertilizer&quot;)}`);&lt;/div&gt;&lt;div&gt;let pesticide: number = parseInt(`${formData.get(&quot;pesticide&quot;)}`);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1104" y="6900" width="395" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-529" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-524" target="FsUDHYmfjSUkFlo_isL7-522">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1404" y="6880" />
+              <mxPoint x="1302" y="6880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-524" value="_event: MouseEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1344" y="6810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-531" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-525" target="FsUDHYmfjSUkFlo_isL7-526">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-525" value="update every value of account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241.5" y="7070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-532" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-526" target="FsUDHYmfjSUkFlo_isL7-527">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-526" value="subtract the total shopping sum from account.money" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241.5" y="7150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-533" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FsUDHYmfjSUkFlo_isL7-527" target="FsUDHYmfjSUkFlo_isL7-528">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-527" value="Update the wallet, the vegetable buttons and the fertilizer and pesticide button" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241.5" y="7230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FsUDHYmfjSUkFlo_isL7-528" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1286.5" y="7310" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
